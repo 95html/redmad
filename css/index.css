@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "寰蒋闆呴粦 Light", simsun, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    behavior: url("../csshover.htc");
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#top_bg {
+    background: #222;
+    height: 30px;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#top_right {
+    width: 1200px;
+    margin: 0 auto;
+}
+#wrapper_box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#logo_search {
+    height: 65px;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo {
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg) no-repeat;
+    width: 145px;
+    height: 95px;
+    overflow: hidden;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+#logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#search-mod {
+    margin: 24px 87px 0 200px;
+    width: 549px;
+    float: left;
+}
+#nav {
+    float: left;
+    margin-top: 24px;
+    height: 40px;
+    line-height: 40px;
+}
+#nav ul li {
+    float: left;
+}
+#nav ul li a {
+    font-size: 18px;
+    padding: 8px 14px;
+    font-family: "寰蒋闆呴粦";
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+}
+#nav ul li a:hover {
+    background: #fdd100;
+}
+#box_banner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#banner a {
+    display: block;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/index_banner.jpg) no-repeat;
+}
+#banner_ad {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+#banner_ad a {
+    display: block;
+    width: 40px;
+    height: 26px;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/guangao.png) no-repeat;
+}
+#main {
+    width: 1200px;
+    margin: 0 auto;
+}
+#software_bg {
+    width: 284px;
+    padding: 0 12px;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-top: 2px solid #fbcf00;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/mages/headernew-bg.jpg) repeat-x;
+    float:left;
+    margin-right:16px;
+}
+#software_title {
+    margin-bottom: 12px;
+}
+#software_title h3 {
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 34px;
+}
+#software_title a {
+    color: #333;
+    font-size: 12px;
+    margin-left: 150px;
+}
+#software_title a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+#software_ico {
+    width: 11px;
+    height: 11px;
+    margin-left: 2px;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/main-bg.png) -3px -56px;
+    display: inline-block;
+}
+#software_list {
+    width: 295px;
+}
+#software_list li {
+    width: 88px;
+    float: left;
+    height: 108px;
+    padding: 0;
+    text-align: center;
+    margin-right: 10px;
+}
+#software_list img {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+}
+#software_list h5 {
+    margin:3px 0 4px;
+}
+#software_list li a.download {
+    display: inline-block;
+    width: 49px;
+    height: 24px;
+    color:#000;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/download.png) 0 -62px;
+}
+#software_list li a.download:hover {
+    background-position: 0 -86px;
+}
+#note {
+    float:left;
+    width:872px;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-top: 2px solid #fbcf00;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/headernew-bg.jpg) repeat-x;}
+#note_ico {
+    display:inline-block;
+    width:11px;
+    height:11px;
+    background:url(http://www.gcxxx.cn/wz/gcxsc/images/note_ico.png) no-repeat;
+    margin-left: 14px;}
+#note_title h3 {
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 34px;
+}
+#note_title a {
+    color: #333;
+    font-size: 12px;
+    margin-left: 714px;
+}
+#note_title a:hover {
+    color: #F00;
+    text-decoration: underline;}
+#note_content_left {
+    height:108px;}
+.top_right_left, .top_right_right {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    color: #a7a7a7;
+}
+.top_right_right {
+    margin-left: 20px;
+}
+.top_right_right a {
+    color: #a7a7a7;
+    text-decoration: underline;
+}
+.top_right_right a:hover {
+    color: #FFF;
+}
+.top_right_right::before {
+    float: left;
+    margin-right: 20px;
+    content: "";
+    background: #a7a7a7;
+    width: 1px;
+    height: 15px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 8px;
+}
+.search {
+    height: 40px;
+    margin: 0;
+}
+.search_input {
+    width: 469px;
+    height: 40px;
+    color: #bababa;
+    font-size: 14px;
+    border: 1px #ececec solid;
+    border-right: 0;
+    line-height: 38px;
+    padding-left: 10px;
+    background: #f9f9f9;
+    float: left;
+    border-radius: 1px 0 0 1px;
+    box-sizing: border-box;
+}
+.search_btn {
+    float: right;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    background: #999;
+    text-align: center;
+    border-radius: 0 1px 1px 0;
+}
+.search_btn:hover {
+    background: #ffba00
+}
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url(http://www.gcxxx.cn/wz/gcxsc/images/sousuo.png) no-repeat 0 0;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+.clear {
+    clear: both;
+}
