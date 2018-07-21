@@ -5,7 +5,7 @@
 body {
     font-family: "寰蒋闆呴粦 Light", simsun, Arial, Helvetica, sans-serif;
     font-size: 14px;
-    behavior: url("../csshover.htc");
+    behavior: url("http://www.gcxxx.cn/wz/gcxsc/csshover.htc");
 }
 li {
     list-style: none;
@@ -197,6 +197,9 @@ a {
     text-decoration: underline;}
 #note_content_left {
     height:108px;}
+#note_content{
+    margin: 5px 0 5px 5px;
+}
 .top_right_left, .top_right_right {
     float: right;
     height: 30px;
@@ -263,6 +266,61 @@ a {
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
+}
+.note_img {
+    float: left;
+    margin-right: 5px;
+}
+.note_text{
+    width: 433px;
+    float: left;
+}
+.note_text h4{
+    margin: 5px 0;
+}
+.note_one_text{
+    width: 270px;
+    float: left;
+}
+.note_time{
+    display: inline-block;
+    margin-top: 10px;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+.note_list{
+    width: 433px;
+    float: left;
+}
+.note_list li{
+    margin-top: 2px;
+}
+.before{
+    float: left;
+    content: "";
+    background: #ccc;
+    width: 4px;
+    height: 4px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 8px 8px 0 0;
+    border-radius: 2px;
+}
+.note_list_a{
+    display: inline-block;
+    width: 405px;
+    color: #222222;
+}
+.note_list li a:hover{
+    color: #FF0000;
+    text-decoration: dashed;
+}
+.note_list_time{
+    display: inline-block;
+    font-size: 12px;
+    color: #a7a7a7;
+    float: right;
+    line-height: 16px;
 }
 .clear {
     clear: both;
