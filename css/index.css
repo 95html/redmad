@@ -200,6 +200,12 @@ a {
 #note_content{
     margin: 5px 0 5px 5px;
 }
+#advertising_img_ico {
+    display:inline-block;
+    width:11px;
+    height:11px;
+    background:url(http://www.gcxxx.cn/wz/gcxsc/images/note_ico.png) no-repeat;
+    margin-left: 14px;}
 .top_right_left, .top_right_right {
     float: right;
     height: 30px;
@@ -321,6 +327,20 @@ a {
     color: #a7a7a7;
     float: right;
     line-height: 16px;
+}
+.down_img_title h3{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 34px;
+}
+.advertising {
+    margin: 25px 0 15px;
+}
+.advertising_img li{
+    float: left;
+}
+.advertising_img_right {
+    margin-right: 10px;
 }
 .clear {
     clear: both;
