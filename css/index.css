@@ -6,6 +6,7 @@ body {
     font-family: "寰蒋闆呴粦 Light", simsun, Arial, Helvetica, sans-serif;
     font-size: 14px;
     behavior: url("http://www.gcxxx.cn/wz/gcxsc/csshover.htc");
+    background: #f6f6f6;
 }
 li {
     list-style: none;
@@ -341,6 +342,24 @@ a {
 }
 .advertising_img_right {
     margin-right: 10px;
+}
+.down_bg{
+    background: #ffffff;
+    width: 282px;
+    height: 395px;
+    float: left;
+    margin:0 24px 5px 0;
+}
+.down_a{
+    display: inline-block;
+    padding: 7px 7px 0px;
+}
+.down_a p{
+    padding-top: 3px;
+    color: #666;
+}
+.fixclear {
+    margin-right: 0;
 }
 .clear {
     clear: both;
