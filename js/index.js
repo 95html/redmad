@@ -52,4 +52,16 @@ function cls(){
 function res(){
     with(event.srcElement)
 //濡傛灉褰撳墠鍊间负绌猴紝鍒欓噸缃负榛樿鍊�
-        if(value=="") value=defaultValue;}
+        if(value=="") value=defaultValue;
+}
+
+function tab(sss){
+    if(sss=="top1"){
+        document.getElementById("down_material").style.display="block";
+        document.getElementById("down_material2").style.display="none";
+    }
+    if(sss=="top2"){
+        document.getElementById("down_material").style.display="none";
+        document.getElementById("down_material2").style.display="block";
+    }
+}

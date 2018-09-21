@@ -203,10 +203,14 @@ a {
 }
 #advertising_img_ico {
     display:inline-block;
-    width:11px;
-    height:11px;
-    background:url(http://www.gcxxx.cn/wz/gcxsc/images/note_ico.png) no-repeat;
+    width:30px;
+    height:30px;
+    background:url(http://icon.qiantucdn.com/img/searchnew/common.png) no-repeat;
+    background-position: -96px -445px;
     margin-left: 14px;}
+#down_material2 {
+    display: none;
+}
 .top_right_left, .top_right_right {
     float: right;
     height: 30px;
@@ -285,9 +289,26 @@ a {
 .note_text h4{
     margin: 5px 0;
 }
+.note_one a {
+    display: inline-block;
+    transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;	/* Firefox 4 */
+    -webkit-transition: box-shadow 1s;	/* Safari 和 Chrome */
+    -o-transition: box-shadow 1s;	/* Opera */
+}
+.note_one a:hover {
+    -moz-box-shadow: 2px 2px 1px #ccc; /* 老的 Firefox */
+    box-shadow: 2px 2px 1px #ccc;
+}
 .note_one_text{
     width: 270px;
     float: left;
+}
+.note_one_text h4 {
+    color: #222222;
+}
+.note_one_text p {
+    color: #666666;
 }
 .note_time{
     display: inline-block;
@@ -349,6 +370,17 @@ a {
     height: 395px;
     float: left;
     margin:0 24px 5px 0;
+}
+.down_bg a {
+    display: inline-block;
+    transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;	/* Firefox 4 */
+    -webkit-transition: box-shadow 1s;	/* Safari 和 Chrome */
+    -o-transition: box-shadow 1s;	/* Opera */
+}
+.down_bg a:hover {
+    -moz-box-shadow: 5px 5px 2px #ccc; /* 老的 Firefox */
+    box-shadow: 5px 5px 2px #ccc;
 }
 .down_a{
     display: inline-block;
