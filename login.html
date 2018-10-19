@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心——登陆</title>
+    <link rel="stylesheet" type="text/css" href="css/p_global.css" />
+    <link rel="stylesheet" type="text/css" href="css/UI_Hui.css" />
+    <link rel="stylesheet" type="text/css" href="css/Frame_ui.css">
+    <link rel="stylesheet" type="text/css" href="css/p_login.css"/>
+</head>
+<body style="background: #93defe; background-size: cover;">
+<div id="top_bg">
+    <!--头部背景-->
+    <div id="top_right">
+        <!--头部右侧文字-->
+        <span class="top_right_left"><a href="index.html">回到首页</a><div class="clear"></div></span>
+    </div>
+</div>
+<!--头部结束-->
+<div id="p_banner">
+    <div class="p_logo">
+        <a href="#"><img src="http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg" class="logo"/></a>
+    </div>
+    <div class="login_box">
+        <div class="login_l_img"><img src="images/login-img.png" /></div>
+        <div class="login">
+            <div class="login_logo"><a href="#"><img src="images/login_logo.png" /></a></div>
+            <div class="login_name">
+                <p>用户登陆</p>
+            </div>
+            <form method="post" action="@">
+                <input name="username" type="text" value="用户名" onfocus="this.value=''" onblur="if(this.value==''){this.value='用户名'}">
+                <span id="password_text" onclick="this.style.display='none';document.getElementById('password').style.display='block';document.getElementById('password').focus().select();">密码</span>
+                <input name="password" type="password" id="password" style="display:none;" onblur="if(this.value==''){document.getElementById('password_text').style.display='block';this.style.display='none'};" />
+                <input value="登录" style="width:100%;" type="submit">
+                <span class="mt-10" style="display: block; float: left;">还没有账号？ <a href="reg.html">立即注册</a></span>
+                <span class="mt-10" style="float: right; display: block;"><a href="#">忘记密码</a></span>
+            </form>
+        </div>
+
+    </div>
+</div>
+<div class="copyright">版权所有©2016-2018 技术支持电话：000-00000000</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "微软雅黑", simsun, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    behavior: url("http://www.gcxxx.cn/wz/gcxsc/csshover.htc");
+    background: #f6f6f6;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#top_bg {
+    background: #222;
+    height: 30px;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#top_right {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top_right_left a {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    color: #a7a7a7;
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+}

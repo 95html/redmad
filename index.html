@@ -1,213 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <title>龟丞相-专注学校的素材网</title>
     <link rel="shortcut icon" href="http://www.gcxxx.cn/wz/gcxsc/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
- 	<!--<link rel="stylesheet" type="text/css" href="css/Frame_ui.css" /> css-ui框架-->
- 	<link rel="stylesheet" type="text/css" href="css/UI_Hui.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/Frame_ui.css" /> css-ui框架-->
+    <link rel="stylesheet" type="text/css" href="css/UI_Hui.css" />
     <script src="js/index.js" language="javascript" type="text/javascript"></script>
 </head>
 
 <body>
-<!--头部开始-->
-<div id="top_bg"><!--头部背景-->
-    <div id="top_right"><!--头部右侧文字-->
-        <span class="top_right_right">
+    <!--头部开始-->
+    <div id="top_bg">
+        <!--头部背景-->
+        <div id="top_right">
+            <!--头部右侧文字-->
+            <span class="top_right_right">
             <a href="javascript:void(0);" onclick="SetHome(this,'http://www.gcxxx.cn');">设首页</a>
             <a href="javascript:void(0);" onclick="AddFavorite('龟丞相素材网',location.href)">加收藏</a>
         </span>
-        <span class="top_right_left">欢迎来到龟丞相素材网！</span>
-        <div class="clear"></div>
-    </div>
-</div>
-<!--头部结束-->
-<div id="wrapper_box"><!--logo、搜索框及导航-->
-    <div id="logo_search">
-        <div id="logo"><a href="#" target="_blank"></a></div>
-        <!--logo-->
-        <div id="search-mod"><!--搜索框-->
-            <div id="search" class="search">
-                <input type="text" class="search_input" data-val="key" value="大家都在搜：Photoshop软件" onfocus="cls()" onblur="res()" />
-                <span class="search_btn"> <i class="search-icon"></i></span></div>
+            <span class="top_right_left"><a href="reg.html">注册</a> &nbsp; <a href="login.html" class="globalLoginBtn">登录</a> 丨 欢迎来到龟丞相素材网！</span>
+            <div class="clear"></div>
         </div>
-        <div id="nav">
-            <ul>
-                <li><a href="#" target="_self">首页</a></li>
-                <li><a href="#" target="_self">软件中心</a></li>
-                <li><a href="#" target="_self">素材中心</a></li>
-                <li><a href="#" target="_self">学长笔记</a></li>
+    </div>
+    <!--头部结束-->
+    <div id="wrapper_box">
+        <!--logo、搜索框及导航-->
+        <div id="logo_search">
+            <div id="logo"><a href="#" target="_blank"></a></div>
+            <!--logo-->
+            <div id="search-mod">
+                <!--搜索框-->
+                <div id="search" class="search">
+                    <input type="text" class="search_input" data-val="key" value="大家都在搜：Photoshop软件" onfocus="cls()" onblur="res()" />
+                    <span class="search_btn"> <i class="search-icon"></i></span></div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="#" target="_self">首页</a></li>
+                    <li><a href="#" target="_self">软件中心</a></li>
+                    <li><a href="#" target="_self">素材中心</a></li>
+                    <li><a href="#" target="_self">学长笔记</a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--logo、搜索框及导航结束-->
+    <div id="box_banner">
+        <div id="banner"><a href="#" target="_self"></a></div>
+        <!--广告位/banner-->
+        <div id="banner_ad"><a href="#" target="_self"></a></div>
+    </div>
+    <div id="main">
+        <div id="software_bg">
+            <div id="software_title"><span id="software_ico"></span>
+                <h3>热门软件</h3>
+                <a target="_blank" href="#">更多 »</a></div>
+            <ul id="software_list">
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/photoshop.png" alt="photoshop" />
+                <h5>Ps CS6</h5>
+            </a><a href="#" class="download"></a></li>
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/AI.png" alt="AI" />
+                <h5>AI CS6</h5>
+            </a><a href="#" class="download"></a></li>
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/flash.png" alt="Flash" />
+                <h5>Flash CS6</h5>
+            </a><a href="#" class="download"></a></li>
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/pr.png" alt="Pr" />
+                <h5>Pr CS6</h5>
+            </a><a href="#" class="download"></a></li>
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/DW.png" alt="DW" />
+                <h5>DW CS6</h5>
+            </a><a href="#" class="download"></a></li>
+                <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/coreldraw.png" alt="coreldraw" />
+                <h5>coreldraw X6</h5>
+            </a><a href="#" class="download"></a></li>
+            </ul>
+        </div>
+        <!--热门软件结束-->
+        <!--学长笔记开始-->
+        <div id="note">
+            <div id="note_title"> <span id="note_ico"></span>
+                <h3>学长笔记</h3>
+                <a target="_blank" href="#">更多 »</a></div>
+            <div id="note_content">
+                <div id="note_content_left" class="note_text">
+                    <div class="note_one">
+                        <a href="#">
+                    <img src="http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg" alt="笔记头图" class="note_img">
+                    <div class="note_one_text">
+
+                        <h4>如何实现IE识别png8图片编码</h4>
+                        <p class="note_one_ti">就啊手机号就卡阿贾克斯坚尼地城阿贾克斯家啊什么美少女俺们埃姆尼斯。</p>
+                        <span class="note_time">2018-07-20</span>
+                    </div>
+                    </a>
+                    </div>
+                </div>
+                <div id="note_content_content" class="note_text">
+                    <div class="note_one">
+                        <a href="#">
+                    <img src="http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg" alt="笔记头图" class="note_img">
+                    <div class="note_one_text">
+                        <h4>如何实现IE识别png8图片编码</h4>
+                        <p class="note_one_ti">就啊手机号就卡阿贾克斯坚尼地城阿贾克斯家啊什么美少女俺们埃姆尼斯。</p>
+                        <span class="note_time">2018-07-20</span>
+
+                    </div>
+                    </a>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="note_bottom">
+                    <ul class="note_list">
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>贾森基德你说呢就是大男大女是肯德基</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>粉丝升级换代时间空间的</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>iii 设计阶段比赛说的话电话</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
+                    </ul>
+                    <ul class="note_list">
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>贾森基德你说呢就是大男大女是肯德基</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>粉丝升级换代时间空间的</span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>iii 设计阶段比赛说的话电话</span></span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
+                        <li>
+                            <div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--学长笔记结束-->
+        <div class="advertising">
+            <ul class="advertising_img">
+                <li class="advertising_img_right"><a href="#"><img src="images/advertising1.png" alt=""></a></li>
+                <li><a href="#"><img src="images/advertising2.jpg" alt=""></a></li>
                 <div class="clear"></div>
             </ul>
         </div>
-        <div class="clear"></div>
-    </div>
-</div>
-<!--logo、搜索框及导航结束-->
-<div id="box_banner">
-    <div id="banner"><a href="#" target="_self"></a></div>
-    <!--广告位/banner-->
-    <div id="banner_ad"><a href="#" target="_self"></a></div>
-</div>
-<div id="main">
-    <div id="software_bg">
-        <div id="software_title"><span id="software_ico"></span>
-            <h3>热门软件</h3>
-            <a target="_blank" href="#">更多 »</a></div>
-        <ul id="software_list">
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/photoshop.png" alt="photoshop" />
-                <h5>Ps CS6</h5>
-            </a><a href="#" class="download"></a></li>
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/AI.png" alt="AI" />
-                <h5>AI CS6</h5>
-            </a><a href="#" class="download"></a></li>
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/flash.png" alt="Flash" />
-                <h5>Flash CS6</h5>
-            </a><a href="#" class="download"></a></li>
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/pr.png" alt="Pr" />
-                <h5>Pr CS6</h5>
-            </a><a href="#" class="download"></a></li>
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/DW.png" alt="DW" />
-                <h5>DW CS6</h5>
-            </a><a href="#" class="download"></a></li>
-            <li><a href="#" target="_self"><img src="http://www.gcxxx.cn/wz/gcxsc/images/coreldraw.png" alt="coreldraw" />
-                <h5>coreldraw X6</h5>
-            </a><a href="#" class="download"></a></li>
-        </ul>
-    </div>
-    <!--热门软件结束-->
-    <!--学长笔记开始-->
-    <div id="note">
-        <div id="note_title"> <span id="note_ico"></span>
-            <h3>学长笔记</h3>
-            <a target="_blank" href="#">更多 »</a></div>
-        <div id="note_content">
-            <div id="note_content_left" class="note_text">
-                <div class="note_one">
-                    <a href="#">
-                    <img src="http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg" alt="笔记头图" class="note_img">
-                    <div class="note_one_text">
-
-                            <h4>如何实现IE识别png8图片编码</h4>
-                            <p class="note_one_ti">就啊手机号就卡阿贾克斯坚尼地城阿贾克斯家啊什么美少女俺们埃姆尼斯。</p>
-                            <span class="note_time">2018-07-20</span>
-                    </div>
-                    </a>
+        <!--素材中心开始-->
+        <div id="down_img">
+            <div class="down_img_top">
+                <div class="down_img_title">
+                    <span id="advertising_img_ico"></span>
+                    <h3>素材中心</h3>
+                    <a href="#" onclick="tab('top1')"><span class="down_title">平面广告</span></a>
+                    <a href="#" onclick="tab('top2')"><span class="down_title">电商淘宝</span></a>
+                    <a href="#"><span class="down_title">网页UI</span></a>
+                    <a href="#"><span class="down_title">PPT模版</span></a>
+                    <a href="#"><span class="down_title">网站源码</span></a>
                 </div>
-            </div>
-            <div id="note_content_content" class="note_text">
-                <div class="note_one">
-                    <a href="#">
-                    <img src="http://www.gcxxx.cn/wz/gcxsc/images/gcxlogo.jpg" alt="笔记头图" class="note_img">
-                    <div class="note_one_text">
-                            <h4>如何实现IE识别png8图片编码</h4>
-                            <p class="note_one_ti">就啊手机号就卡阿贾克斯坚尼地城阿贾克斯家啊什么美少女俺们埃姆尼斯。</p>
-                            <span class="note_time">2018-07-20</span>
-
-                    </div>
-                    </a>
-                    <div class="clear"></div>
-            </div>
-            </div>
-            <div class="clear"></div>
-            <div class="note_bottom">
-                <ul class="note_list">
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>贾森基德你说呢就是大男大女是肯德基</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>粉丝升级换代时间空间的</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>iii 设计阶段比赛说的话电话</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
-                </ul>
-                <ul class="note_list">
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>贾森基德你说呢就是大男大女是肯德基</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>粉丝升级换代时间空间的</span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>iii 设计阶段比赛说的话电话</span></span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
-                    <li><div class="before"></div><a href="#" class="note_list_a"><span>哦时间地点并不是那回事iii哦 i</span></span><span class="note_list_time">2018-07-21</span></a></li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-        </div>
-    </div>
-    <div class="clear"></div>
-    <!--学长笔记结束-->
-    <div class="advertising">
-        <ul class="advertising_img">
-            <li class="advertising_img_right"><a href="#"><img src="images/advertising1.png" alt=""></a></li>
-            <li><a href="#"><img src="images/advertising2.jpg" alt=""></a></li>
-            <div class="clear"></div>
-        </ul>
-    </div>
-    <!--素材中心开始-->
-    <div id="down_img">
-        <div class="down_img_top">
-            <div class="down_img_title">
-                <span id="advertising_img_ico"></span>
-                <h3>素材中心</h3>
-                <a href="#" onclick="tab('top1')"><span class="down_title">平面广告</span></a>
-                <a href="#" onclick="tab('top2')"><span class="down_title">电商淘宝</span></a>
-                <a href="#"><span class="down_title">网页UI</span></a>
-                <a href="#"><span class="down_title">PPT模版</span></a>
-                <a href="#"><span class="down_title">网站源码</span></a>
-            </div>
-            <div id="down_material">
-                <div class="down_bg">
-                    <a href="#" class="down_a">
+                <div id="down_material">
+                    <div class="down_bg">
+                        <a href="#" class="down_a">
                         <img src="http://pic.qiantucdn.com/58pic/28/78/09/69c58PICA4jYk4Y4MBey2_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
                         <p>电商淘宝青红简约秋冬新风尚首页模板</p>
                     </a>
-                </div>
-                <div class="down_bg">
-                    <a href="#" class="down_a">
+                    </div>
+                    <div class="down_bg">
+                        <a href="#" class="down_a">
                         <img src="http://pic.qiantucdn.com/58pic/28/78/09/69c58PICA4jYk4Y4MBey2_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
                         <p>暑期学生培训班海报</p>
                     </a>
-                </div>
-                <div class="down_bg">
-                    <a href="#" class="down_a">
+                    </div>
+                    <div class="down_bg">
+                        <a href="#" class="down_a">
                         <img src="http://pic.qiantucdn.com/58pic/28/78/09/69c58PICA4jYk4Y4MBey2_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
                         <p>暑期学生培训班海报</p>
                     </a>
+                    </div>
+                    <div class="down_bg fixclear">
+                        <a href="#" class="down_a">
+                        <img src="http://pic.qiantucdn.com/58pic/28/78/09/69c58PICA4jYk4Y4MBey2_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
+                        <p>暑期学生培训班海报</p>
+                    </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div id="down_material2">
+                <div class="down_bg">
+                    <a href="#" class="down_a">
+                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
+                    <p>电商淘宝青红简约秋冬新风尚首页模板</p>
+                </a>
+                </div>
+                <div class="down_bg">
+                    <a href="#" class="down_a">
+                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
+                    <p>暑期学生培训班海报</p>
+                </a>
+                </div>
+                <div class="down_bg">
+                    <a href="#" class="down_a">
+                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
+                    <p>暑期学生培训班海报</p>
+                </a>
                 </div>
                 <div class="down_bg fixclear">
                     <a href="#" class="down_a">
-                        <img src="http://pic.qiantucdn.com/58pic/28/78/09/69c58PICA4jYk4Y4MBey2_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
-                        <p>暑期学生培训班海报</p>
-                    </a>
+                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
+                    <p>暑期学生培训班海报</p>
+                </a>
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
-
-        <div id="down_material2">
-            <div class="down_bg">
-                <a href="#" class="down_a">
-                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
-                    <p>电商淘宝青红简约秋冬新风尚首页模板</p>
-                </a>
+        <!--素材中心结束-->
+        <div class="interlink">
+            <h2>贡献榜</h2>
+            <div class="container">
+                <div class="row cl">
+                    <span><a href="#"><img src="images/ico1.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico2.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico3.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico4.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico5.png" width="196px" /></a></span>
+                    <span><a href="#"><img src="images/ico6.png" width="196px" /></a></span>
+                    <span><a href="#"><img src="images/ico7.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico55.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico8.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico10.png" width="197px" /></a></span>
+                    <span><a href="#"><img src="images/ico11.png" width="196px" /></a></span>
+                    <span><a href="#"><img src="images/ico12.png" width="196px" /></a></span>
+                </div>
             </div>
-            <div class="down_bg">
-                <a href="#" class="down_a">
-                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
-                    <p>暑期学生培训班海报</p>
-                </a>
-            </div>
-            <div class="down_bg">
-                <a href="#" class="down_a">
-                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
-                    <p>暑期学生培训班海报</p>
-                </a>
-            </div>
-            <div class="down_bg fixclear">
-                <a href="#" class="down_a">
-                    <img src="http://pic.qiantucdn.com/58pic/28/81/79/81i58PICI30fF3eABTD3u_PIC2018.jpg!/fw/580/compress/true/clip/580x772a0a0/format/webp" alt="" width="268px" height="356px">
-                    <p>暑期学生培训班海报</p>
-                </a>
-            </div>
-            <div class="clear"></div>
         </div>
     </div>
+
+
+<div class="qt-footer-default">
+    <div class="w1200 qt-footer">
+        <div class="footer-top clearfix">
+            <dl class="fl"><dt>常见问题</dt>
+                <dd><a href="#" target="_blank" rel="nofollow">成为签约贡献者</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">注册登录</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">帐号/密码</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">打赏站长</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">版权投诉</a></dd>
+            </dl>
+            <dl class="fl"><dt>关于龟丞相</dt>
+                <dd><a href="#" target="_blank" rel="nofollow">关于我们</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">媒体报道</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">加入我们</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">丞相历程</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">Q我畅聊</a></dd>
+            </dl>
+            <dl class="fl"><dt>产品服务</dt>
+                <dd><a href="#" target="_blank" >官方博客</a></dd>
+                <dd><a href="#" target="_blank" rel="nofollow">帮助中心</a></dd>
+            </dl>
+            <dl class="fl"><dt>友情链接</dt>
+                <dd><a href="http://www.ooopic.com/" target="_blank">我图网</a></dd>
+                <dd><a href="http://588ku.com/" target="_blank">千库网</a></dd>
+                <dd><a href="http://699pic.com/" target="_blank">摄图网</a></dd>
+                <dd><a href="https://huke88.com/?sem=qiantu&kw=200004" target="_blank">虎课网</a></dd>
+                <dd><a href="https://aiji66.com/" target="_blank">爱集网</a></dd>
+                <dd><a href="http://www.58pic.com/link.html">更多>></a></dd>
+            </dl>
+            <div class="fr other-service">
+                <p class="service-title"><a href="javascript:void(0);" rel="external nofollow">客服咨询</a></p>
+                <p class="service-tel"><i></i> 13142075149
+                    <em>（9:30-18:30）</em></p>
+                <p class="service-email"><i></i><a href="postmaster@gcxxx.cn" rel="external nofollow">postmaster@gcxxx.cn</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom clearfix">
+            <p class="fl bottom-href"><a href="#" target="_blank" rel="external nofollow">注册声明</a><a href="#" target="_blank" rel="external nofollow">版权声明</a><a href="#" target="_blank" rel="external nofollow">售后服务</a></p>
+            <p class="fr"> Copyright &copy;2017-2018 龟丞相 <a href="http://www.miibeian.gov.cn" target="_blank" rel="external nofollow">湘ICP备1700123422号-2</a>
+            </p>
+        </div>
     </div>
+</div>
+
 </body>
 </html>

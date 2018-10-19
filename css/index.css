@@ -220,11 +220,11 @@ a {
 .top_right_right {
     margin-left: 20px;
 }
-.top_right_right a {
+.top_right_right a,.top_right_left a {
     color: #a7a7a7;
     text-decoration: underline;
 }
-.top_right_right a:hover {
+.top_right_right a:hover,.top_right_left a:hover {
     color: #FFF;
 }
 .top_right_right::before {
@@ -393,6 +393,104 @@ a {
 .fixclear {
     margin-right: 0;
 }
+.interlink {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.interlink h2 {
+    margin-bottom: 20px;
+}
+/*footer部分*/
+.qt-footer-default {
+    background-color: #222!important
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.qt-footer .footer-top {
+    padding: 30px 0 0 18px;
+    height: 263px;
+}
+.clearfix:after {
+    display: block;
+    height: 0;
+}
+.clearfix:after {
+    content: " ";
+}
+
+.clearfix:after {
+    font-size: 0;
+    visibility: hidden;
+    clear: both;
+}
+.qt-footer .footer-top dl:first-child {
+    width: 160px;
+}
+
+.qt-footer .footer-top dl {
+    width: 150px;
+}
+.fl {
+    float: left;
+}
+.qt-footer .footer-top dt {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.qt-footer .footer-top dd a {
+    font-size: 12px;
+    line-height: 2;
+    color: #888;
+}
+.qt-footer .footer-top .other-service {
+    width: 310px;
+}
+.other-service p a {
+    color: #888;
+}
+.fr {
+    float: right;
+}
+.qt-footer .footer-top .service-title {
+    color: #888;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.qt-footer .footer-top .service-tel {
+    margin-bottom: 15px;
+}
+.qt-footer .footer-top .service-email, .qt-footer .footer-top .service-tel {
+    color: #888;
+    font-size: 18px;
+}
+.qt-footer .footer-bottom {
+    border-top: 1px solid #ccc;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 18px;
+}
+.qt-footer .footer-bottom .bottom-href {
+    padding-left: 14px;
+}
+
+.qt-footer .footer-bottom p {
+    font-size: 12px;
+    color: #888;
+}
+.qt-footer .footer-bottom p a {
+    color: #888;
+}
+.qt-footer .footer-bottom .bottom-href a {
+    display: inline-block;
+    margin-right: 18px;
+}
+/*footer部分结束*/
 .clear {
     clear: both;
 }
